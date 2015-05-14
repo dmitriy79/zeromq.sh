@@ -21,7 +21,7 @@ cd zeromq-4.0.5
 ./configure
 
 #build and install(root permission only)
-make install
+sudo make install
 
 #install zeromq driver on linux
 ldconfig
