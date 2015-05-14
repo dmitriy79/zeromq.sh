@@ -23,7 +23,7 @@ cd zeromq-4.0.5
 #build and install(root permission only)
 make install
 
-#install mod on linux
+#install zeromq driver on linux
 ldconfig
 
 #check installed
