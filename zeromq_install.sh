@@ -11,8 +11,8 @@ wget http://download.zeromq.org/zeromq-4.0.5.tar.gz
 tar xvzf zeromq-4.0.5.tar.gz
 
 #install dependency
-apt-get update && \
-apt-get install -y libtool pkg-config build-essential autoconf automake uuid-dev
+sudo apt-get update && \
+sudo apt-get install -y libtool pkg-config build-essential autoconf automake uuid-dev
 
 #in zeromq dir
 cd zeromq-4.0.5
@@ -24,7 +24,7 @@ cd zeromq-4.0.5
 sudo make install
 
 #install zeromq driver on linux
-ldconfig
+sudo ldconfig
 
 #check installed
 ldconfig -p | grep zmq
