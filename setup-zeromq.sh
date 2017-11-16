@@ -26,6 +26,6 @@ ldconfig -p | grep zmq
 
 # Expected
 ############################################################
-#        libzmq.so.5 (libc6,x86-64) => /usr/local/lib/libzmq.so.5
-#        libzmq.so (libc6,x86-64) => /usr/local/lib/libzmq.so
+# libzmq.so.5 (libc6,x86-64) => /usr/local/lib/libzmq.so.5
+# libzmq.so (libc6,x86-64) => /usr/local/lib/libzmq.so
 ############################################################
